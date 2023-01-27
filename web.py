@@ -28,5 +28,3 @@ for todo in todos:
 st.text_input(label="Enter a todo", placeholder="Add a new ToDo",
               label_visibility="hidden",
               on_change=add_todo, key="new_todo")
-
-st.session_state
